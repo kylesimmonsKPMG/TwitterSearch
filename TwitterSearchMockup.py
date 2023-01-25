@@ -6,7 +6,7 @@ import tweepy
 
 
 BEARER_TOKEN = "AAAAAAAAAAAAAAAAAAAAAANgkgEAAAAAUX79Ycp3rd8lcY%2BhyVfJletTKVE%3D2BqVg4JOAuQUfoTvOBPDU3TNYZ3g7970sOUkJHTjMYv1OsZVTw"
-
+#Fake_Amazon_Token = "BsnFNoUoKPrfRgWP4Eh2W8nT9pI3v5hGUcwYA3q"
 
 def search_username(keyword, results_master_list, results_usernames):
     auth = tweepy.OAuth2BearerHandler(BEARER_TOKEN)  # Authorizes user to API
